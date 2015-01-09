@@ -1,0 +1,18 @@
+- @posts.each do |post|
+  = post.fields
+  br
+  br
+
+  a href="/posts/#{post.id}"
+    = BlogPost.title(post)
+    / = post.fields[:title]
+    - if post.fields[:top]
+      br
+      img src=BlogPost.client.asset(post.fields[:top].id).image_url(width: 300, height: 200, format: 'jpg', quality: 80)
+  br
+  = post.fields[:body]
+
+  br
+  br
+  br
+  br

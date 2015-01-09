@@ -205,10 +205,18 @@
 			}
 		},
 		{
-			"file": "config.rb",
+			"contents": "{\n  \"sys\": {\n    \"id\": \"41f8vwrpvyssiu0EM8uOag\",\n    \"revision\": 4,\n    \"type\": \"Entry\",\n    \"locale\": \"en-US\",\n    \"contentType\": {\n      \"sys\": {\n        \"id\": \"5NBV5l0ihqucSSU2ug2sYG\",\n        \"type\": \"Link\",\n        \"linkType\": \"ContentType\"\n      }\n    },\n    \"createdAt\": \"2014-11-15T02:06:20.278Z\",\n    \"updatedAt\": \"2015-01-06T23:02:13.164Z\",\n    \"space\": {\n      \"sys\": {\n        \"id\": \"kmrzha9d2ftm\",\n        \"type\": \"Link\",\n        \"linkType\": \"Space\"\n      }\n    }\n  },\n  \"fields\": {\n    \"postTitle\": \"Three Women Paper Magazine\",\n    \"postColor\": \"#d66cd0\",\n    \"topImage\": {\n      \"sys\": {\n        \"type\": \"Link\",\n        \"linkType\": \"Asset\",\n        \"id\": \"6htjR9K7xSgQwY2U00awcQ\"\n      }\n    },\n    \"postBody\": \"Lorem ipsum dolor sit amet, **consectetur adipisicing** elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. *Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*\"\n  }\n}",
 			"settings":
 			{
-				"buffer_size": 3420,
+				"buffer_size": 1187,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "{\n  \"sys\": {\n    \"id\": \"happycat\",\n    \"revision\": 8,\n    \"type\": \"Entry\",\n    \"locale\": \"en-US\",\n    \"contentType\": {\n      \"sys\": {\n        \"id\": \"cat\",\n        \"type\": \"Link\",\n        \"linkType\": \"ContentType\"\n      }\n    },\n    \"createdAt\": \"2013-06-27T22:46:20.171Z\",\n    \"updatedAt\": \"2013-11-18T15:58:02.018Z\",\n    \"space\": {\n      \"sys\": {\n        \"id\": \"cfexampleapi\",\n        \"type\": \"Link\",\n        \"linkType\": \"Space\"\n      }\n    }\n  },\n  \"fields\": {\n    \"name\": \"Happy Cat\",\n    \"bestFriend\": {\n      \"sys\": {\n        \"id\": \"nyancat\",\n        \"revision\": 5,\n        \"type\": \"Entry\",\n        \"locale\": \"en-US\",\n        \"contentType\": {\n          \"sys\": {\n            \"id\": \"cat\",\n            \"type\": \"Link\",\n            \"linkType\": \"ContentType\"\n          }\n        },\n        \"createdAt\": \"2013-06-27T22:46:19.513Z\",\n        \"updatedAt\": \"2013-09-04T09:19:39.027Z\",\n        \"space\": {\n          \"sys\": {\n            \"id\": \"cfexampleapi\",\n            \"type\": \"Link\",\n            \"linkType\": \"Space\"\n          }\n        }\n      },\n      \"fields\": {\n        \"name\": \"Nyan Cat\",\n        \"likes\": [\n          \"rainbows\",\n          \"fish\"\n        ],\n        \"color\": \"rainbow\",\n        \"birthday\": \"2011-04-04T22:00:00+00:00\",\n        \"lives\": 1337,\n        \"image\": {\n          \"sys\": {\n            \"id\": \"nyancat\",\n            \"revision\": 1,\n            \"type\": \"Asset\",\n            \"locale\": \"en-US\",\n            \"createdAt\": \"2013-09-02T14:56:34.240Z\",\n            \"updatedAt\": \"2013-09-02T14:56:34.240Z\",\n            \"space\": {\n              \"sys\": {\n                \"id\": \"cfexampleapi\",\n                \"type\": \"Link\",\n                \"linkType\": \"Space\"\n              }\n            }\n          },\n          \"fields\": {\n            \"title\": \"Nyan Cat\",\n            \"file\": {\n              \"fileName\": \"Nyan_cat_250px_frame.png\",\n              \"contentType\": \"image/png\",\n              \"details\": {\n                \"image\": {\n                  \"width\": 250,\n                  \"height\": 250\n                },\n                \"size\": 12273\n              },\n              \"url\": \"//images.contentful.com/cfexampleapi/4gp6taAwW4CmSgumq2ekUm/9da0cd1936871b8d72343e895a00d611/Nyan_cat_250px_frame.png\"\n            }\n          }\n        }\n      }\n    },\n    \"likes\": [\n      \"cheezburger\"\n    ],\n    \"color\": \"gray\",\n    \"birthday\": \"2003-10-28T23:00:00+00:00\",\n    \"lives\": 1,\n    \"image\": {\n      \"sys\": {\n        \"id\": \"happycat\",\n        \"revision\": 2,\n        \"type\": \"Asset\",\n        \"locale\": \"en-US\",\n        \"createdAt\": \"2013-09-02T14:56:34.267Z\",\n        \"updatedAt\": \"2013-09-02T15:11:24.361Z\",\n        \"space\": {\n          \"sys\": {\n            \"id\": \"cfexampleapi\",\n            \"type\": \"Link\",\n            \"linkType\": \"Space\"\n          }\n        }\n      },\n      \"fields\": {\n        \"file\": {\n          \"fileName\": \"happycatw.jpg\",\n          \"contentType\": \"image/jpeg\",\n          \"details\": {\n            \"image\": {\n              \"width\": 273,\n              \"height\": 397\n            },\n            \"size\": 59939\n          },\n          \"url\": \"//images.contentful.com/cfexampleapi/3MZPnjZTIskAIIkuuosCss/382a48dfa2cb16c47aa2c72f7b23bf09/happycatw.jpg\"\n        },\n        \"title\": \"Happy Cat\"\n      }\n    }\n  }\n},\n{\n  \"sys\": {\n    \"id\": \"garfield\",\n    \"revision\": 2,\n    \"type\": \"Entry\",\n    \"locale\": \"en-US\",\n    \"contentType\": {\n      \"sys\": {\n        \"id\": \"cat\",\n        \"type\": \"Link\",\n        \"linkType\": \"ContentType\"\n      }\n    },\n    \"createdAt\": \"2013-06-27T22:46:20.821Z\",\n    \"updatedAt\": \"2013-08-27T10:09:07.929Z\",\n    \"space\": {\n      \"sys\": {\n        \"id\": \"cfexampleapi\",\n        \"type\": \"Link\",\n        \"linkType\": \"Space\"\n      }\n    }\n  },\n  \"fields\": {\n    \"name\": \"Garfield\",\n    \"likes\": [\n      \"lasagna\"\n    ],\n    \"color\": \"orange\",\n    \"lifes\": null,\n    \"lives\": 9,\n    \"birthday\": \"1979-06-18T23:00:00+00:00\"\n  }\n},",
+			"settings":
+			{
+				"buffer_size": 3867,
 				"line_ending": "Unix"
 			}
 		},
@@ -216,7 +224,7 @@
 			"file": "source/layout.erb",
 			"settings":
 			{
-				"buffer_size": 1304,
+				"buffer_size": 1117,
 				"line_ending": "Unix"
 			}
 		},
@@ -237,11 +245,12 @@
 			}
 		},
 		{
-			"file": "source/2012-01-01-example-article.html.md",
+			"file": ".buildpacks",
 			"settings":
 			{
-				"buffer_size": 151,
-				"line_ending": "Unix"
+				"buffer_size": 111,
+				"line_ending": "Unix",
+				"name": "https://github.com/heroku/heroku-buildpack-ruby.gi"
 			}
 		}
 	],
@@ -251,6 +260,14 @@
 		"height": 400.0,
 		"selected_items":
 		[
+			[
+				"esc",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
 			[
 				"css",
 				"Set Syntax: CSS"
@@ -364,10 +381,6 @@
 				"Set Syntax: HTML (Rails)"
 			],
 			[
-				"esc",
-				"HTML: Encode Special Characters"
-			],
-			[
 				"mark",
 				"Set Syntax: Markdown"
 			],
@@ -460,7 +473,7 @@
 				"Live CSS: Toggle globally"
 			]
 		],
-		"width": 529.0
+		"width": 538.0
 	},
 	"console":
 	{
@@ -490,6 +503,9 @@
 	],
 	"file_history":
 	[
+		"/Volumes/Content/Sites/rails-cloud-cms/config.rb",
+		"/Volumes/Content/Sites/rails-cloud-cms/source/2014-11-15-three-women-paper-magazine.html.md",
+		"/Volumes/Content/Sites/rails-cloud-cms/source/2013-06-27-garfield.html.markdown",
 		"/Volumes/Content/Sites/rails-cloud-cms/helpers/markdown_helper.rb",
 		"/Volumes/Content/Sites/rails-cloud-cms/source/layout.erb",
 		"/Volumes/Content/Sites/rails-cloud-cms/source/posts/2012-01-01-example-article.html.markdown",
@@ -614,10 +630,7 @@
 		"/Volumes/Content/Sites/edk/hubacek-wedding/config.ru",
 		"/Volumes/Content/Sites/edk/hubacek-wedding/Rakefile",
 		"/Volumes/Content/Sites/nf/nufam/source/stylesheets/partials/bitters/_typography.scss",
-		"/Volumes/Content/Sites/nf/nufam/source/index.html.slim",
-		"/Volumes/Content/Sites/nf/nufam/source/stylesheets/partials/_shame.scss",
-		"/Volumes/Content/Sites/nf/nufam/source/stylesheets/partials/bitters/_grid-settings.scss",
-		"/Volumes/Content/Sites/nf/nufam/source/stylesheets/partials/_helpers.scss"
+		"/Volumes/Content/Sites/nf/nufam/source/index.html.slim"
 	],
 	"find":
 	{
@@ -628,6 +641,8 @@
 		"height": 106.0,
 		"where_history":
 		[
+			"/Volumes/Content/Sites/rails-cloud-cms",
+			"/Volumes/Content/Sites/edk/erinio",
 			"/Volumes/Content/Sites/edk/erinio/source",
 			"/Volumes/Content/Sites/100yrs/rl-learnalytics/source",
 			"/Volumes/Content/Sites/100yrs/rl-learnalytics",
@@ -654,6 +669,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"tags",
+			"join",
+			"tags",
+			"name",
+			"markdown",
+			"slug",
+			"slug =",
 			"// ",
 			"color",
 			"2px",
@@ -774,14 +796,7 @@
 			"arrow-right",
 			"background-size",
 			"-image",
-			"background-im",
-			"color-bg",
-			"border",
-			"avatar",
-			"feature-info__top",
-			"feature-t",
-			"offset",
-			"avatar"
+			"background-im"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -932,7 +947,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -1028,19 +1043,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "config.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3420,
+						"buffer_size": 1187,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1614,
-								1614
+								165,
+								165
 							]
 						],
 						"settings":
@@ -1105,32 +1119,121 @@
 								"bh_tag_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (dark).tmTheme",
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 432.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "source/layout.erb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1304,
+						"buffer_size": 3867,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1242,
-								1242
+								1039,
+								1039
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (dark).tmTheme",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "source/layout.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								639,
+								639
 							]
 						],
 						"settings":
@@ -1200,14 +1303,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 41.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "rails-cloud-cms.sublime-project",
 					"semi_transient": false,
 					"settings":
@@ -1293,11 +1396,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "source/layouts/article_layout.slim",
 					"semi_transient": false,
 					"settings":
@@ -1383,29 +1486,30 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "source/2012-01-01-example-article.html.md",
-					"semi_transient": true,
+					"buffer": 7,
+					"file": ".buildpacks",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 151,
+						"buffer_size": 111,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								111,
+								111
 							]
 						],
 						"settings":
 						{
 							"BracketHighlighterBusy": false,
+							"auto_name": "https://github.com/heroku/heroku-buildpack-ruby.gi",
 							"bh_regions":
 							[
 								"bh_square",
@@ -1465,7 +1569,7 @@
 								"bh_tag_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (dark).tmTheme",
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
